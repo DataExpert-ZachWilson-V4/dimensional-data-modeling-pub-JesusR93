@@ -1,4 +1,11 @@
 INSERT INTO jesusr93.actors_history_scd
+(
+    actor_id,
+    quality_class,
+    is_active,
+    start_year,
+    end_year
+)
 WITH lagged AS (
     SELECT
         *,

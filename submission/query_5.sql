@@ -116,7 +116,7 @@ changes AS (
         END AS change_array
     FROM combined
 )
--
+
 SELECT
     changes.actor_id,
     arr.qc,
